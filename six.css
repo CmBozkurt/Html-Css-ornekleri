@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.kutu, body .container .box1, body .container .box2 {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 10px;
+}
+
+body {
+  background-color: bisque;
+}
+
+body .container {
+  height: 1000px;
+  width: 900px;
+  margin: 0px auto;
+  background-color: teal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container header ul li {
+  margin: 15px;
+}
+
+body .container header ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 50px;
+  height: 50px;
+  width: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: crimson;
+  text-decoration: none;
+  font-size: 24px;
+  color: bisque;
+}
+
+body .container header ul li a:hover {
+  color: blueviolet;
+}
+
+body .container .kutular {
+  height: 500px;
+  width: 700px;
+  margin: 0px auto;
+  background-color: blueviolet;
+  margin-top: 20px;
+}
+
+body .container .box1 {
+  border-width: 5px;
+  border-style: groove;
+  border-color: black;
+}
+
+body .container .box2 {
+  border-width: 5px;
+  border-style: groove;
+  border-color: black;
+}
+/*# sourceMappingURL=six.css.map */

@@ -1,0 +1,649 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background: linear-gradient(110deg, crimson, steelblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  #sayfa {
+    width: 93%;
+    min-height: 720px;
+    #ust {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: gold;
+          width: 19%;
+          height: 50px;
+          span {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: 900;
+          }
+        }
+      }
+    }
+    @media (min-width: 720px) {
+      #orta {
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3%;
+
+        .ust1 {
+          width: 68%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: white url(resimler/taco.jpg);
+          background-size: cover;
+          background-position: bottom right;
+          background-position-x: right;
+          background-position-y: bottom;
+          h1 {
+            width: 250px;
+            height: auto;
+            background-color: gold;
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            padding: 5px 3px;
+          }
+          p {
+            width: 135px;
+            height: auto;
+            font-size: 15px;
+            font-weight: 700;
+            background-color: gold;
+            margin-left: 50px;
+            padding: 5px;
+          }
+        }
+        .ustyan {
+          width: 30%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          .ust2 {
+            width: 100%;
+            height: 185px;
+            background-color: gold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span {
+              font-size: 3.5em;
+              font-weight: 100;
+            }
+            p {
+              font-size: 1em;
+              font-weight: 700;
+            }
+          }
+          .ust3 {
+            width: 100%;
+            height: 185px;
+            background-color: gold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span {
+              font-size: 3.5em;
+              font-weight: 100;
+            }
+            p {
+              font-size: 1em;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+    @media (min-width: 500px) and (max-width: 720px) {
+      #orta {
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3%;
+
+        .ust1 {
+          width: 100%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: white url(resimler/taco.jpg);
+          background-size: cover;
+          background-position: bottom right;
+          background-position-x: right;
+          background-position-y: bottom;
+          margin-bottom: 20px;
+          h1 {
+            width: 250px;
+            height: auto;
+            background-color: gold;
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            padding: 5px 3px;
+          }
+          p {
+            width: 135px;
+            height: auto;
+            font-size: 15px;
+            font-weight: 700;
+            background-color: gold;
+            margin-left: 50px;
+            padding: 5px;
+          }
+        }
+        .ustyan {
+          width: 100%;
+          min-height: 200px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .ust2 {
+            width: 49%;
+            height: 185px;
+            background-color: gold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span {
+              font-size: 3.5em;
+              font-weight: 100;
+            }
+            p {
+              font-size: 1em;
+              font-weight: 700;
+            }
+          }
+          .ust3 {
+            width: 49%;
+            height: 185px;
+            background-color: gold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span {
+              font-size: 3.5em;
+              font-weight: 100;
+            }
+            p {
+              font-size: 1em;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 500px) {
+      #orta {
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3%;
+
+        .ust1 {
+          width: 100%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: white url(resimler/taco.jpg);
+          background-size: cover;
+          background-position: bottom right;
+          background-position-x: right;
+          background-position-y: bottom;
+          margin-bottom: 20px;
+          h1 {
+            width: 250px;
+            height: auto;
+            background-color: gold;
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            padding: 5px 3px;
+          }
+          p {
+            width: 135px;
+            height: auto;
+            font-size: 15px;
+            font-weight: 700;
+            background-color: gold;
+            margin-left: 50px;
+            padding: 5px;
+          }
+        }
+        .ustyan {
+          width: 100%;
+          min-height: 390px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          .ust2 {
+            width: 100%;
+            height: 185px;
+            background-color: gold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span {
+              font-size: 3.5em;
+              font-weight: 100;
+            }
+            p {
+              font-size: 1em;
+              font-weight: 700;
+            }
+          }
+          .ust3 {
+            width: 100%;
+            height: 185px;
+            background-color: gold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span {
+              font-size: 3.5em;
+              font-weight: 100;
+            }
+            p {
+              font-size: 1em;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+    @media (min-width: 1200px) {
+      #alt1 {
+        width: 100%;
+        min-height: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2%;
+        div {
+          width: 24%;
+          height: 180px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          background-color: white;
+          span {
+            font-weight: 700;
+          }
+          p {
+            font-weight: 600;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    @media (min-width: 960px) and (max-width: 1200px) {
+      #alt1 {
+        width: 100%;
+        min-height: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2%;
+        div {
+          width: 24%;
+          height: 180px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          background-color: white;
+          span {
+            font-weight: 700;
+          }
+          p {
+            font-weight: 600;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    @media (min-width: 720px) and (max-width: 960px) {
+      #alt1 {
+        width: 100%;
+        min-height: 180px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        margin-top: 2%;
+        div {
+          width: 32%;
+          height: 180px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          background-color: white;
+          margin-bottom: 20px;
+          span {
+            font-weight: 700;
+          }
+          p {
+            font-weight: 600;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    @media (min-width: 500px) and (max-width: 720px) {
+      #alt1 {
+        width: 100%;
+        min-height: 180px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        margin-top: 2%;
+        div {
+          width: 49%;
+          height: 180px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          background-color: white;
+          margin-bottom: 20px;
+          span {
+            font-weight: 700;
+          }
+          p {
+            font-weight: 600;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    @media (max-width: 500px) {
+      #alt1 {
+        width: 100%;
+        min-height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        div {
+          width: 100%;
+          height: 180px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          background-color: white;
+          margin-bottom: 20px;
+          span {
+            font-weight: 700;
+          }
+          p {
+            font-weight: 600;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    @media (min-width: 680px) {
+      #alt2 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        border-style: groove;
+        background-color: white;
+        margin-top: 2%;
+        img {
+          width: 400px;
+          height: 300px;
+          margin-left: 50px;
+        }
+        p {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          font-weight: 700;
+        }
+        span {
+          border-style: groove;
+          padding: 5px 10px;
+          background-color: gold;
+        }
+      }
+    }
+    @media (max-width: 680px) {
+      #alt2 {
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-style: groove;
+        background-color: white;
+        margin-top: 2%;
+        img {
+          width: 400px;
+          height: 300px;
+          margin-left: 50px;
+        }
+        p {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          font-weight: 700;
+        }
+        span {
+          border-style: groove;
+          padding: 5px 10px;
+          background-color: gold;
+        }
+      }
+    }
+    #alt3 {
+      width: 100%;
+      min-height: 480px;
+      .baslik {
+        width: 100%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .div1 {
+          width: 42%;
+          height: 10px;
+          background: linear-gradient(90deg, transparent, gold);
+        }
+        h2 {
+          width: 220px;
+          height: auto;
+          text-align: center;
+        }
+        .div2 {
+          width: 42%;
+          height: 10px;
+          background: linear-gradient(90deg, gold, transparent);
+        }
+      }
+      @media (min-width: 1200px) {
+        .resimler {
+          width: 100%;
+          height: auto;
+          display: flex;
+          ul {
+            width: 100%;
+            height: 520px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+            li {
+              width: 19%;
+              height: 250px;
+              list-style: none;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+              }
+            }
+          }
+        }
+      }
+      @media (min-width: 960px) and (max-width: 1200px) {
+        .resimler {
+          width: 100%;
+          height: auto;
+          display: flex;
+          ul {
+            width: 100%;
+            height: 790px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+            li {
+              width: 24%;
+              height: 250px;
+              list-style: none;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+              }
+            }
+          }
+        }
+      }
+      @media (min-width: 720px) and (max-width: 960px) {
+        .resimler {
+          width: 100%;
+          height: auto;
+          display: flex;
+          ul {
+            width: 100%;
+            height: 1060px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+            li {
+              width: 32%;
+              height: 250px;
+              list-style: none;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+              }
+            }
+          }
+        }
+      }
+      @media (min-width: 500px) and (max-width: 720px) {
+        .resimler {
+          width: 100%;
+          height: auto;
+          display: flex;
+          ul {
+            width: 100%;
+            height: 1330px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+            li {
+              width: 48.5%;
+              height: 250px;
+              list-style: none;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+              }
+            }
+          }
+        }
+      }
+      @media (max-width: 500px) {
+        .resimler {
+          width: 100%;
+          height: auto;
+          display: flex;
+          ul {
+            width: 100%;
+            height: 2700px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
+            li {
+              width: 100%;
+              height: 250px;
+              list-style: none;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

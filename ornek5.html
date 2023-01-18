@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: rgb(216, 45, 79);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    font-size: 1.5em;
+}
+nav ul a{
+    width: 110px;
+    height: 80px;
+    border-style: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul a:hover{
+    background-color: blue;
+}
+main{
+    margin-top: 80px;
+}
+#ust{
+    margin-top: 0px;
+    width: 100%;
+    height: 545px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+}
+#ust h1{
+    font-size: 4em;
+    color: white;
+    font-family: sans-serif;
+}
+#ust p{
+    font-size: 2.3em;
+    color: rgb(170, 33, 61);
+}
+#orta{
+    margin-top: 0px;
+    width: 100%;
+    min-height: 720px;
+    background-color: rgb(53, 53, 128);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#orta h1{
+    font-size: 3em;
+    color: whitesmoke;
+     border-bottom: 2px solid white;
+}
+.resimler ul{
+    border-style: none;
+}
+.resimler ul li a img{
+    width: 100%;
+    height: 370px;
+    border-style: none;    
+}
+.simge{
+    color: rgb(54, 54, 54);
+    transition: color 0.3s ease-out;
+}
+.resimler a:hover .simge{
+    color: crimson;
+}
+.resimler ul li{
+    list-style: none;
+}
+.resimler ul li a{
+    width: 400px;
+    height: 430px;
+    margin: 15px;
+    text-decoration: none;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resimler p{
+    width: 100%;
+    height: 60px;
+    margin-top: 0px;
+    border-style: none;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resimler p{
+    color: white;
+}
+#orta input[type=submit]{
+    color: white;
+    background-color: rgb(54, 54, 54);
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 1.3em;
+    margin-bottom: 35px;
+}
+#orta input:hover{
+    background-color: crimson;
+}
+#alt{
+    margin-top: 0px;
+    width: 100%;
+    height: 445px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+}
+#alt h1{
+    color: white;
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+}
+#alt h2{
+    color: white;
+    font-size: 1.2em;
+    font-style: oblique;
+
+}
+#alt li{
+    list-style: none;
+    margin: 20px;
+}
+#alt li:hover{
+    transform: translateY(7px);
+}
+#alt ul a{
+    color: white;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+footer{
+    margin-top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(54, 54, 54);
+    border-top: 3px crimson solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer p{
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (min-width:900px) {
+    .resimler ul{
+    display: flex;
+}
+#alt ul{
+    display: flex;
+}
+#alt img{
+    margin-right: 5px;
+    transform: translateY(10%);
+}
+}
+@media (max-width:900px) {
+    .resimler ul{
+    display: flex;
+    flex-direction: column;
+}
+#alt ul li{
+    display: flex;
+}
+#alt img{
+    margin-right: 5px;
+    transform: translateY(-50%);
+}
+}
+@media (max-width:480px) {
+    .resimler ul{
+    display: flex;
+    flex-direction: column;
+}
+#alt ul li{
+    display: flex;
+}
+#alt img{
+    margin-right: 5px;
+    transform: translateY(-50%);
+}
+}
+</style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#ust">About</a></li>
+                    <li><a href="#orta">Work</a></li>
+                    <li><a href="#alt">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section id="ust">
+                <h1>Hey I am Mimic</h1>
+                <p>a web developer</p>
+            </section>
+            <section id="orta">
+                <div><h1>These are some of my projects</h1></div>
+                <div class="resimler">
+                    <ul>
+                        <li>
+                            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx"><img src="resimler/tribute.jpg" alt="?">
+                                <p><span class="simge">&lt;</span>Tribute Page<span class="simge">&#47;&gt;</span></p></a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ"><img src="resimler/random-quote-machine.png" alt="?">
+                                <p><span class="simge">&lt;</span>Random Quote Machine<span class="simge">&#47;&gt;</span></p></a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX"><img src="resimler/calc.png" alt="?">
+                                <p><span class="simge">&lt;</span>JavaScript Calculator<span class="simge">&#47;&gt;</span></p></a>
+                        </li>
+                    </ul>    
+                </div>
+                <div class="resimler">
+                    <ul>
+                        <li>
+                            <a href="https://codepen.io/freeCodeCamp/full/mVEJag"><img src="resimler/map.jpg" alt="?">
+                                <p><span class="simge">&lt;</span>Map Data Across the Globe<span class="simge">&#47;&gt;</span></p></a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/freeCodeCamp/full/wGqEga"><img src="resimler/wiki.png" alt="?">
+                                <p><span class="simge">&lt;</span>Wikipedia Viewer<span class="simge">&#47;&gt;</span></p></a>
+                        </li>
+                        <li>
+                            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy"><img src="resimler/tic-tac-toe.png" alt="?">
+                                <p><span class="simge">&lt;</span>Tic Tac Toe Game<span class="simge">&#47;&gt;</span></p></a>
+                        </li>
+                    </ul>
+                </div>
+                <div><input type="submit" value="Show all>"></div>
+            </section>
+            <section id="alt">
+                    <h1>Let's work together...</h1>
+                    <h2>How do you take your coffee?</h2>
+                <ul>
+                    <li><img src="resimler/face.png" alt="?"><a href="https://www.facebook.com/freecodecamp">Facebook</a></li>
+                    <li><img src="resimler/git.png" alt="?"><a href="https://github.com/freecodecamp">GiHup</a></li>
+                    <li><img src="resimler/twit.png" alt="?"><a href="https://twitter.com/freecodecamp">Twitter</a></li>
+                    <li><img src="resimler/mail.png" alt="?"><a href="mailto:example@example.com">Sand a mail</a></li>
+                    <li><img src="resimler/tel.png" alt="?"><a href="tel:555-555-5555">Call me</a></li>
+                </ul>
+                
+            </section>
+            <footer>
+                <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+                <p>&copy; Created for <a href="https://www.freecodecamp.org/">freeCodeCamp<img src="resimler/ikon.png" alt="?"></a></p>
+            </footer>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,543 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body #ust1 {
+  width: 100%;
+  height: 450px;
+  margin-top: 0px;
+  background: url(resimler/kod.jpg);
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 700px) {
+  body #ust1 h1 {
+    display: block;
+    font-size: 2em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body #ust1 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 25px;
+  }
+  body #ust1 div p {
+    display: block;
+    width: 72%;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 700px) {
+  body #ust1 h1 {
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 1.9em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body #ust1 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 25px;
+  }
+  body #ust1 div p {
+    display: block;
+    width: 98%;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+  }
+}
+
+body #ust1 input {
+  width: 150px;
+  height: 60px;
+  background-color: #3f3e3e;
+  color: white;
+  font-size: 1.2em;
+}
+
+body #ust1 input:hover {
+  color: #3f3e3e;
+  background-color: whitesmoke;
+}
+
+body #ust2 {
+  width: 100%;
+  height: 230px;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.9;
+}
+
+@media (min-width: 700px) {
+  body #ust2 h2 {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body #ust2 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #ust2 div p {
+    -webkit-column-count: 2;
+            column-count: 2;
+    width: 55%;
+    font-size: 1em;
+    font-family: sans-serif;
+    margin: 27px;
+    text-align: center;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 700px) {
+  body #ust2 h2 {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body #ust2 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #ust2 div p {
+    -webkit-column-count: auto;
+            column-count: auto;
+    width: 80%;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+  }
+}
+
+@media (min-width: 700px) {
+  body #ust3 {
+    width: 100%;
+    height: 550px;
+    background-color: #3f3e3e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #ust3 div {
+    width: 275px;
+    height: 500px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 15px;
+  }
+  body #ust3 div h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.9;
+    margin: 45px 0px 45px 0px;
+  }
+  body #ust3 div p {
+    width: 230px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.9;
+    text-align: center;
+    line-height: 1.6;
+  }
+  body #ust3 div img {
+    margin-top: 0px;
+    width: 275px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  body #ust3 {
+    width: 100%;
+    min-height: 550px;
+    background-color: #3f3e3e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #ust3 div {
+    width: 95%;
+    height: 630px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 15px;
+  }
+  body #ust3 div h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.9;
+    margin: 45px 0px 45px 0px;
+  }
+  body #ust3 div p {
+    width: 95%;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.9;
+    text-align: center;
+    line-height: 1.6;
+  }
+  body #ust3 div img {
+    margin-top: 0px;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+body #ust4 {
+  width: 100%;
+  height: 250px;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.9;
+}
+
+@media (min-width: 700px) {
+  body #ust4 h2 {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body #ust4 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #ust4 div p {
+    display: block;
+    width: 78%;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px;
+    text-align: center;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 700px) {
+  body #ust4 h2 {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body #ust4 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #ust4 div p {
+    display: block;
+    width: 88%;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px;
+    text-align: center;
+    line-height: 1.6;
+  }
+}
+
+body #ust5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 700px) {
+  body #ust5 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    height: 315px;
+  }
+  body #ust5 .div1 {
+    background-color: dodgerblue;
+  }
+  body #ust5 .div1 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.5em;
+  }
+  body #ust5 .div1 p {
+    display: block;
+    width: 94%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    margin: 45px 0px 45px 0px;
+    font-size: 1em;
+  }
+  body #ust5 .div1 span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  body #ust5 .div2 {
+    background-color: #3f3e3e;
+  }
+  body #ust5 .div2 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.5em;
+  }
+  body #ust5 .div2 p {
+    display: block;
+    width: 94%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 45px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 700px) {
+  body #ust5 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #ust5 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 315px;
+  }
+  body #ust5 .div1 {
+    background-color: dodgerblue;
+  }
+  body #ust5 .div1 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.5em;
+  }
+  body #ust5 .div1 p {
+    display: block;
+    width: 91%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    margin: 45px 0px 45px 0px;
+    font-size: 1em;
+  }
+  body #ust5 .div1 span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  body #ust5 .div2 {
+    background-color: #3f3e3e;
+  }
+  body #ust5 .div2 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.5em;
+  }
+  body #ust5 .div2 p {
+    display: block;
+    width: 91%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 45px;
+    font-size: 1em;
+  }
+}
+
+body footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 700px) {
+  body footer {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  body footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+body footer span {
+  color: white;
+  font-size: 1.1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body footer span a {
+  color: dodgerblue;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*# sourceMappingURL=ornek6.css.map */

@@ -1,0 +1,321 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body header {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header nav ul .oturum {
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+  background-color: #0f6bc7;
+}
+
+body header nav ul .oturum a {
+  font-size: 0.9em;
+  color: white;
+}
+
+body header nav ul .oturum:hover {
+  background-color: #137ae0;
+}
+
+body header nav ul .oturum:hover a {
+  text-decoration: none;
+}
+
+body header nav ul li {
+  margin-right: 20px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav ul li :hover {
+  text-decoration: underline;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: black;
+}
+
+body header nav .uygulama a {
+  border-radius: 100%;
+  padding: 3px;
+}
+
+body header nav .uygulama:hover {
+  border-radius: 100%;
+  background-color: #d1d1fc;
+}
+
+body #ust {
+  width: 100%;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #ust ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #ust ul :nth-child(3n+1) {
+  color: blue;
+}
+
+body #ust ul :nth-child(4n+2) {
+  color: red;
+}
+
+body #ust ul :nth-child(3) {
+  color: yellow;
+}
+
+body #ust ul :nth-child(5) {
+  color: green;
+}
+
+body #ust ul li {
+  font-size: 5.7em;
+  list-style: none;
+  color: black;
+  font-family: sans-serif;
+  opacity: 0.7;
+}
+
+body #orta {
+  width: 100%;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #orta form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #orta form .ara1 {
+  margin-bottom: 27px;
+  width: 575px;
+  height: 43px;
+  border: 1px solid #d1d1fc;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #orta form .ara1 .araic1 {
+  margin-left: 15px;
+  margin-top: 5px;
+  opacity: 0.4;
+}
+
+body #orta form .ara1 .araic2 input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  margin-left: 12px;
+  font-size: 17px;
+}
+
+body #orta form .ara1 .araic4 {
+  margin-left: 10px;
+}
+
+body #orta form .ara1 .araic3 {
+  margin-left: 3px;
+}
+
+body #orta form .ara2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #orta form .ara2 :hover {
+  border: 1px solid #bdbdff;
+}
+
+body #orta form .ara2 input {
+  background-color: lavender;
+  padding: 10px;
+  opacity: 0.6;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: block;
+  border: none;
+}
+
+body #bosluk {
+  width: 100%;
+  height: 218px;
+}
+
+body #alt {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 100%;
+  height: 48px;
+  border-bottom: 1px solid #d1d1fc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: lavender;
+  opacity: 0.6;
+}
+
+body #alt div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 27px;
+  font-family: sans-serif;
+  font-size: 0.95em;
+}
+
+body footer {
+  width: 100%;
+  height: 48px;
+  background-color: lavender;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.6;
+}
+
+body footer .div2 :hover {
+  text-decoration: underline;
+}
+
+body footer .div2 a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 0.95em;
+}
+
+body footer .div1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .div1 ul li {
+  list-style: none;
+  margin-left: 27px;
+}
+
+body footer .div1 ul li :hover {
+  text-decoration: underline;
+}
+
+body footer .div1 ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 0.95em;
+}
+
+body footer .div3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .div3 ul :nth-child(3) button {
+  border: none;
+  font-family: sans-serif;
+  font-size: 0.95em;
+}
+
+body footer .div3 ul :nth-child(3) button :hover {
+  text-decoration: underline;
+}
+
+body footer .div3 ul li {
+  list-style: none;
+  margin-right: 27px;
+}
+
+body footer .div3 ul li :hover {
+  text-decoration: underline;
+}
+
+body footer .div3 ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 0.95em;
+}
+/*# sourceMappingURL=ornek7.css.map */
